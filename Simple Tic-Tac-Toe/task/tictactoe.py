@@ -48,3 +48,6 @@ elif (X.count('win') != 1 and X.count('lose') != 1) and (nest_count(user_input, 
     print("Game not finished")
 elif (X.count('win') != 1 and X.count('lose') != 1) and (nest_count(user_input, "_") == 0):
     print("Draw")
+
+
+coordinates = input("Enter Coordinates").split()
